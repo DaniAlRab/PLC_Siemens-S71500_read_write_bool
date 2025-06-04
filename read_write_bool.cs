@@ -6,7 +6,7 @@ class Program
     static void Main()
     {
        // Change this to your PLC's IP
-        string plcIp = "192.168.90.10";
+        string plcIp = "192.168.1.10";
 
 		// Change this to your PLC's CPU type
         CpuType cpu = CpuType.S71200;
@@ -17,7 +17,7 @@ class Program
 		// Change this to your slot number
         short slot = 1;
 		
-        int dbNumber = 32;
+        int dbNumber = 3;
 
         using (Plc plc = new Plc(cpu, plcIp, rack, slot))
         {
