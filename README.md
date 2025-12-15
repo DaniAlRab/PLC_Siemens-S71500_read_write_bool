@@ -43,16 +43,19 @@ This Visual Studio console code shows how to read and write values in a bool var
    - **F5** → Run with debugging
    - Green ▶ **Start** button in the toolbar
 
-## 5) What you should see
+## 6) What you should see
 - `Program.cs` will contain something like:
   - Top-level statements:
     ```csharp
     Console.WriteLine("Hello, World!");
     ```
-  - Or classic `Main()` (if you disabled top-level statements)
+  - Or classic `Main()` (if you disabled top-level statements).
 
+ - Copy and paste [read_write_bool.cs](read_write_bool.cs)
+to your `Program.cs` file and test it, (Verify IP)
 
-## 6) Useful tips
+## 7) Useful tips
+
 - **Find the compiled output**:
   - `bin\Debug\net8.0\` (or similar, depending on the framework)
   - `bin\Release\net8.0\` (if you build Release)
