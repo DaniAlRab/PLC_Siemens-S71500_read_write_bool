@@ -27,7 +27,16 @@ This Visual Studio console code shows how to read and write values in a bool var
 12. Optional: toggle **Do not use top-level statements** if you want the classic `static void Main(string[] args)` style
 13. Click **Create**
 
-## 4) Run the program
+## 4) Install Nuget using the Package Manager Console (PMC)
+
+14. In Visual Studio, go to:
+   - **Tools > NuGet Package Manager > Package Manager Console**
+15. At the top, select the correct **Default project**
+3. Run:
+   ```powershell
+   PM> Install-Package S7.NetPlus -Version 0.20.0
+
+## 5) Run the program
 14. Visual Studio opens `Program.cs`
 15. Run it using one of these:
    - **Ctrl + F5** → Run **without debugging** (console stays open)
@@ -42,6 +51,7 @@ This Visual Studio console code shows how to read and write values in a bool var
     ```
   - Or classic `Main()` (if you disabled top-level statements)
 
+
 ## 6) Useful tips
 - **Find the compiled output**:
   - `bin\Debug\net8.0\` (or similar, depending on the framework)
@@ -50,3 +60,5 @@ This Visual Studio console code shows how to read and write values in a bool var
   - Right-click project → **Set as Startup Project**
 - **Build**:
   - **Build > Build Solution** (or `Ctrl + Shift + B`)
+ 
+    
