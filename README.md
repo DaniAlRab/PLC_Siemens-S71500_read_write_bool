@@ -1,5 +1,5 @@
-# PLC_Siemens-S71500_read_write_bool
-This Visual Studio console code shows how to read and write values in a bool variable in DB of Siemens PLC  from family S71500.
+# Siemens - S71500 - Read and Write Bool
+This Visual Studio console read and write values from a bool variable in located in a DB of Siemens PLC from family S71500.
 
 
 # Create a Console App in Visual Studio 2022 (Step-by-step)
@@ -52,7 +52,7 @@ This Visual Studio console code shows how to read and write values in a bool var
   - Or classic `Main()` (if you disabled top-level statements).
 
  - Copy and paste [read_write_bool.cs](read_write_bool.cs)
-to your `Program.cs` file and test it, (Verify IP)
+ content to your `Program.cs` file, and test it (Verify your IP)
 
 ## 7) Useful tips
 
