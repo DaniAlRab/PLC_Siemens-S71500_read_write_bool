@@ -41,7 +41,7 @@ class Program
                     bool readBool2 = (bool)plc.Read($"DB{dbNumber}.DBX0.2");
                     Console.WriteLine("Read Bool2: " + readBool2);
 
-                    bool readBool3 = (bool)plc.Read($"DB{dbNumber}.DBX0.0");
+                    bool readBool3 = (bool)plc.Read($"DB{dbNumber}.DBX0.3");
                     Console.WriteLine("Read Bool3: " + readBool3);
 
 
