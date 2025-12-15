@@ -54,6 +54,10 @@ This Visual Studio console read and write values from a bool variable in located
  - Copy and paste [read_write_bool.cs](read_write_bool.cs)
  content to your `Program.cs` file, and test it (Verify your IP)
 
+![Test](read_and_write_bool_test.png)
+
+
+
 ## 7) Useful tips
 
 - **Find the compiled output**:
