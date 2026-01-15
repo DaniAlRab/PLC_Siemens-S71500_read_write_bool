@@ -37,7 +37,8 @@ This Visual Studio console read and write values from a bool variable in located
    PM> Install-Package S7.NetPlus -Version 0.20.0
 
 ## 5) Run the program
-14. Visual Studio opens `Program.cs`
+14. On Visual Studio edit `Program.cs` and add the content of [Example File](read_write_bool.cs)
+ 
 15. Run it using one of these:
    - **Ctrl + F5** → Run **without debugging** (console stays open)
    - **F5** → Run with debugging
