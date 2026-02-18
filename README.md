@@ -27,7 +27,7 @@ This Visual Studio console read and write values from a bool variable in located
 12. Optional: toggle **Do not use top-level statements** if you want the classic `static void Main(string[] args)` style
 13. Click **Create**
 
-## 4) Install Nuget using the Package Manager Console (PMC)
+## 4) Install S7.NetPlus using the Package Manager Console (PMC)
 
 14. In Visual Studio, go to:
    - **Tools > NuGet Package Manager > Package Manager Console**
@@ -37,7 +37,7 @@ This Visual Studio console read and write values from a bool variable in located
    PM> Install-Package S7.NetPlus -Version 0.20.0
 
 ## 5) Run the program
-14. On Visual Studio edit `Program.cs` and add the content of [Example File](read_write_bool.cs)
+14. On Visual Studio, edit `Program.cs` and add the content of [Example File](read_write_bool.cs)
  
 15. Run it using one of these:
    - **Ctrl + F5** → Run **without debugging** (console stays open)
