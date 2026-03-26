@@ -53,16 +53,23 @@ This Visual Studio console read and write values from a bool variable in located
   - Or classic `Main()` (if you disabled top-level statements).
 
 
-
-
 ## 7) Siemens Tia Portal Table Creation
- - in Siemens Tia portal previously you have the connection with plc and all others steps for connection working.
 
- - Create a new datablock
-![Test](read_and_write_bool_test)
+ - On Siemens Tia portal, previously, you had the connection with the PLC, and all other steps for the connection were working.
 
- 
+ - Create a new project
+![New Project](Create_Project.png)
 
+ - Create a new DB
+![New DB](Add_New_DB.png)
+
+ - With this Data
+![Datatype DB](Datatype_Fields_DB.png)
+
+ - Config DB to access using S7.Net by byte address instead of field name.
+![Config DB](Config_DB.png)
+
+## 8) Visual Studio Test
 
  - Copy and paste [read_write_bool.cs](read_write_bool.cs)
  content to your `Program.cs` file, and test it (Verify your IP)
